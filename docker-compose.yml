@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres
+    container_name: propexcel
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: product_management
+    ports:
+      # Maps local port 5432 to container port 5432
+      - "5432:5432"
+    
