@@ -3,7 +3,8 @@ import dotenv from "dotenv";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 
-import authRoutes from "./apis/routes/authroutes.js";
+
+import authRoutes from "./apis/routes/authRoutes.js";
 import userRoutes from "./apis/routes/userRoutes.js";
 import roleRoutes from "./apis/routes/roleRoutes.js";
 import productRoutes from "./apis/routes/productRoutes.js";
